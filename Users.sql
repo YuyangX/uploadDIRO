@@ -6,6 +6,6 @@ CREATE TABLE Users (
     identity VARCHAR(20) DEFAULT 'generalUser'
 );
 
-INSERT INTO Users(username, password) VALUES('admin', 'admin', 'admin');
+INSERT INTO Users(username, password, identity) VALUES('admin', 'admin', 'admin');
 
 COMMIT;

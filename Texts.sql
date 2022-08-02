@@ -2,7 +2,7 @@ START TRANSACTION;
 
 CREATE TABLE Texts (
     title VARCHAR(50) PRIMARY KEY,
-    content TEXT,
+    content TEXT
 );
 
 INSERT INTO Texts(title, content) VALUES("ClaudeBerge.text", 
